@@ -1,0 +1,280 @@
+   *{
+        padding: 0;
+        margin: 0;
+    }
+    .header-layout{
+        display: flex;
+        background-color: #efefef;
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        top: 0px;
+    
+    }
+    .header-layout div{
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+    .fdiv{
+        border-right: 1px solid gray;
+        padding-right: 8px;
+        height: 20px;
+        justify-content: center;
+        display: inline-block;
+    }
+    .mein-nav-bar-layout{
+        width: 100%;
+        height: 35px;
+        padding-top: 50px;
+        position: fixed;
+        z-index: 0;
+        
+    }
+     .mein-nav-bar-layout>ul>li{
+        display: inline;
+        padding: 20px;
+        vertical-align: middle;
+        position: relative;
+        bottom: 20px;
+        
+     }
+     
+     .mein-content-div>img{
+        margin-top: 90px;
+     }
+     .box1{
+        width: 300px;
+        height: 150px;
+        background-color: rgb(49, 201, 252);
+        text-align: center;
+        margin-left: 500px;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        color: white;
+        position: absolute;
+        top: 200px
+        
+        
+}
+.box1>h3{
+    padding-top: 20px;
+    padding-right: 90px;
+    font-size: xx-large;
+    z-index: 1;
+}
+.box2{
+  
+        width: 300px;
+        height: 150px;
+        background-color: rgb(49, 201, 252);
+        text-align: center;
+        margin-left: 500px;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        color: white;
+        position: absolute;
+        top: 400px
+}
+.box2>h3{
+     padding-top: 20px;
+    padding-right: 90px;
+    font-size: xx-large;
+    z-index: 1;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: rgb(49, 201, 252);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(49, 201, 252);
+    color: white;
+}
+.top-image{
+    position: relative;
+    top: 40px;
+    margin-right: 400px;
+}
+.laptop-img{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 50px;
+    z-index: 1;
+}
+.ipad-image{
+      position: absolute;
+      margin-left: 90px;
+      top: 30px;
+    
+    
+}
+.second-contant-image img{
+    width: 100%;
+    height: 500px;
+}
+.second-contant-manu{
+    position: absolute;
+    top: 720px;
+    margin-left: 460px;
+    
+}
+.second-contant-manu,h1,p{
+font-size: xx-large;    
+text-align: center;
+line-height: 40px;
+}
+
+.laptop-button{
+    background-color: rgb(49, 201, 252);
+    color: white;
+    margin-top: 15px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.button-laptop{
+    background-color: white;
+    color: rgb(49, 201, 252);
+}
+.h1-tag{
+    position: absolute;
+    top: 730px;
+    color: red;
+    font-size: x-large;
+}
+.third-contant-image img{
+    width: 100%;
+    height: 500px;
+    
+}
+.third-contant-manu{
+    position: absolute;
+    top: 1200px;
+    margin-left: 470px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.h2-tag{
+    position: relative;
+    top: 30px;
+      color: red;
+    font-size: x-large;
+}
+.ipad-pro-pic{
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 25px;
+}
+.ipad-manu-section{
+    display: flex;
+    text-align: center;
+    position: relative;
+    right: 470px;
+    color: white;
+
+}
+.ipad-manu{
+    position: relative;
+    bottom: 500px;
+    color: white;
+    padding: 5px;
+}
+
+.watch-manu{
+    position: relative;
+    bottom: 250px;
+}
+
+.airpods-watch-image{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    bottom: 170px;
+    
+}
+
+.mobile-card-image{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    bottom: 160px;
+}
+.running-image{
+    position: relative;
+    bottom: 140px;
+    gap: 10px;
+}
+.card-manu-runn{
+    gap: 10px;
+    position: relative;
+    bottom: 100px;
+}
+.paragraph,small{
+    padding-left: 20px;
+    justify-content: center;
+    color: gray;
+}
+.main-footer{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin-left: 20px;
+    position: relative;
+    top: 80px;
+    border-top: 1px solid gray ;
+    
+    
+  
+    
+}
+.main-footer,ul{
+    margin-top: 20px;
+}
+.first-footer>ul>li{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.first-footer>ul>li>a{
+    color: black;
+    text-decoration: none;   
+}
+.second-footer,ul{
+    margin-top: 20px;
+}
+.second-footer>ul>li{
+    list-style-type: none;
+    padding: 10px;
+}
+.second-footer>ul>li,a{
+    color: black;
+    text-decoration: none;
+}
+.third-footer>ul{
+  margin-top: 20px;
+
+}
+.third-footer>ul>li{
+    list-style-type: none;
+    padding: 10px;
+}
+.four-footer>ul{
+     margin-top: 20px;
+}
+.four-footer>ul>li{
+     list-style-type: none;
+    padding: 10px;
+}
+.four-footer>ul>li>a{
+    
+  color: black;
+    text-decoration: none;
+}
